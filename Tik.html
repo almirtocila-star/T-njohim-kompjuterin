@@ -1,0 +1,324 @@
+```html id="3zklpw"
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projekt Informatike - Kompjuteri</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(to right,#16222a,#3a6073);
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+header h1{
+    font-size:55px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+nav{
+    background:#111;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00bfff;
+}
+
+section{
+    padding:50px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    margin-top:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#1b4965;
+    margin-bottom:20px;
+}
+
+.images{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+
+.images img{
+    width:300px;
+    border-radius:15px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    background:#1b4965;
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    margin-top:15px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0f2f44;
+}
+
+#rezultati{
+    margin-top:25px;
+    padding:20px;
+    background:#111;
+    color:#00ff88;
+    border-radius:15px;
+    min-height:120px;
+    font-size:18px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>PROJEKT: KOMPJUTERI</h1>
+
+    <p>Website interaktiv për Informatikë</p>
+
+</header>
+
+<nav>
+
+    <a href="#historiku">Historiku</a>
+    <a href="#pjeset">Pjesët</a>
+    <a href="#interaktiv">Programi Interaktiv</a>
+
+</nav>
+
+<section id="historiku">
+
+<div class="container">
+
+<h2>Historiku i Kompjuterit</h2>
+
+<div class="card">
+
+<p>
+Kompjuteri ka kaluar një zhvillim të madh gjatë historisë.
+Nga makinat e para llogaritëse deri tek superkompjuterët modernë,
+teknologjia ka ndryshuar mënyrën si njerëzit punojnë dhe komunikojnë.
+</p>
+
+<div class="images">
+
+<img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000">
+
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="pjeset">
+
+<div class="container">
+
+<h2>Pjesët e Kompjuterit</h2>
+
+<div class="card">
+
+<ul>
+
+<li>CPU – Truri i kompjuterit</li>
+
+<li>RAM – Memoria e përkohshme</li>
+
+<li>SSD – Ruajtja e të dhënave</li>
+
+<li>Monitori – Shfaq informacionin</li>
+
+<li>Tastiera – Përdoret për shkrim</li>
+
+<li>Mausi – Kontrollon kursorin</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="interaktiv">
+
+<div class="container">
+
+<h2>Program Interaktiv si C++</h2>
+
+<div class="card">
+
+<p>
+Ky seksion funksionon si një program C++ me menu interaktive.
+Kliko butonat për të parë informacionet.
+</p>
+
+<button onclick="historiku()">
+Historiku
+</button>
+
+<button onclick="pjeset()">
+Pjesët
+</button>
+
+<button onclick="llojet()">
+Llojet
+</button>
+
+<button onclick="siguria()">
+Siguria
+</button>
+
+<div id="rezultati">
+
+Zgjidh një opsion për të parë informacionin.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+Projekt Informatike © 2026 | Tema: Kompjuteri
+</p>
+
+</footer>
+
+<script>
+
+function historiku(){
+
+document.getElementById("rezultati").innerHTML =
+
+"📚 <b>Historiku i Kompjuterit</b><br><br>" +
+
+"Charles Babbage konsiderohet babai i kompjuterit modern.<br>" +
+
+"Alan Turing kontribuoi në inteligjencën artificiale.<br>" +
+
+"Në vitet 1970 filluan kompjuterët personalë.";
+
+}
+
+function pjeset(){
+
+document.getElementById("rezultati").innerHTML =
+
+"🖥️ <b>Pjesët e Kompjuterit</b><br><br>" +
+
+"CPU – Truri i kompjuterit.<br>" +
+
+"RAM – Memoria e përkohshme.<br>" +
+
+"SSD – Ruajtja e të dhënave.<br>" +
+
+"Monitori, tastiera dhe mausi janë pajisje hyrëse/dalëse.";
+
+}
+
+function llojet(){
+
+document.getElementById("rezultati").innerHTML =
+
+"💻 <b>Llojet e Kompjuterëve</b><br><br>" +
+
+"Desktop<br>" +
+
+"Laptop<br>" +
+
+"Server<br>" +
+
+"Tablet<br>" +
+
+"Superkompjuter";
+
+}
+
+function siguria(){
+
+document.getElementById("rezultati").innerHTML =
+
+"🔒 <b>Siguria</b><br><br>" +
+
+"Përdor antivirus.<br>" +
+
+"Krijo fjalëkalime të forta.<br>" +
+
+"Bëj backup të të dhënave.<br>" +
+
+"Mos hap file të dyshimta.";
+
+}
+
+</script>
+
+</body>
+</html>
+```
