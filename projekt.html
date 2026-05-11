@@ -1,0 +1,260 @@
+```html
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekti - Kompjuteri</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: #f4f7fb;
+            color:#222;
+            line-height:1.6;
+        }
+
+        header{
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color:white;
+            padding:40px;
+            text-align:center;
+        }
+
+        header h1{
+            font-size:50px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:20px;
+        }
+
+        nav{
+            background:#111;
+            padding:15px;
+            text-align:center;
+            position:sticky;
+            top:0;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#00bfff;
+        }
+
+        section{
+            padding:50px;
+        }
+
+        .container{
+            max-width:1100px;
+            margin:auto;
+        }
+
+        h2{
+            color:#1e3c72;
+            margin-bottom:20px;
+            border-left:6px solid #2a5298;
+            padding-left:10px;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            margin-top:20px;
+            border-radius:15px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .images{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+            margin-top:20px;
+        }
+
+        .images img{
+            width:300px;
+            border-radius:15px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        ul{
+            margin-left:20px;
+            margin-top:10px;
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 25px;
+            background:#2a5298;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#1e3c72;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PROJEKTI: KOMPJUTERI</h1>
+        <p>Zhvillimi, pjesët dhe rëndësia e kompjuterit në jetën moderne</p>
+    </header>
+
+    <nav>
+        <a href="#historiku">Historiku</a>
+        <a href="#pjeset">Pjesët</a>
+        <a href="#llojet">Llojet</a>
+        <a href="#siguria">Siguria</a>
+    </nav>
+
+    <section id="historiku">
+        <div class="container">
+            <h2>Historiku i Kompjuterit</h2>
+
+            <div class="card">
+                <p>
+                    Kompjuteri ka kaluar një zhvillim të madh gjatë historisë.
+                    Nga makinat e para llogaritëse deri tek superkompjuterët modernë,
+                    teknologjia ka ndryshuar botën dhe mënyrën si njerëzit punojnë,
+                    mësojnë dhe komunikojnë.
+                </p>
+
+                <h3>Figura Kryesore</h3>
+
+                <ul>
+                    <li><b>Charles Babbage</b> – Babai i kompjuterit modern.</li>
+                    <li><b>Alan Turing</b> – Pionier i inteligjencës artificiale.</li>
+                    <li><b>John von Neumann</b> – Krijoi arkitekturën moderne të kompjuterëve.</li>
+                </ul>
+
+                <div class="images">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000" alt="Kompjuter">
+                    
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000" alt="Teknologji">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pjeset">
+        <div class="container">
+            <h2>Pjesët e Kompjuterit</h2>
+
+            <div class="card">
+                <ul>
+                    <li><b>CPU</b> – Truri i kompjuterit.</li>
+                    <li><b>RAM</b> – Memoria e përkohshme.</li>
+                    <li><b>Hard Disk / SSD</b> – Ruajtja e të dhënave.</li>
+                    <li><b>Monitori</b> – Shfaq informacionin.</li>
+                    <li><b>Tastiera</b> – Përdoret për shkrim.</li>
+                    <li><b>Mausi</b> – Kontrollon kursorin.</li>
+                </ul>
+
+                <div class="images">
+                    <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1000" alt="CPU">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="llojet">
+        <div class="container">
+            <h2>Llojet dhe Përdorimet</h2>
+
+            <div class="card">
+                <h3>Llojet e Kompjuterëve</h3>
+
+                <ul>
+                    <li>Desktop</li>
+                    <li>Laptop</li>
+                    <li>Server</li>
+                    <li>Tablet</li>
+                    <li>Superkompjuter</li>
+                </ul>
+
+                <h3>Përdorimet</h3>
+
+                <p>
+                    Kompjuterët përdoren në shkolla, zyra, spitale,
+                    kërkime shkencore, programe teknologjike,
+                    lojëra dhe komunikim online.
+                </p>
+
+                <a href="#" class="btn">Mëso më shumë</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="siguria">
+        <div class="container">
+            <h2>Siguria dhe Këshillat</h2>
+
+            <div class="card">
+                <h3>Përparësitë</h3>
+
+                <ul>
+                    <li>Shpejtësi në punë.</li>
+                    <li>Ruajtje e madhe e të dhënave.</li>
+                    <li>Ndihmon në mësim dhe komunikim.</li>
+                </ul>
+
+                <h3>Disavantazhet</h3>
+
+                <ul>
+                    <li>Varësia nga teknologjia.</li>
+                    <li>Probleme me shikimin.</li>
+                    <li>Rreziku nga viruset.</li>
+                </ul>
+
+                <h3>Këshilla për Sigurinë</h3>
+
+                <ul>
+                    <li>Përdor antivirus.</li>
+                    <li>Përdor fjalëkalime të forta.</li>
+                    <li>Bëj backup të të dhënave.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Projekt Informatike © 2026 | Tema: Kompjuteri</p>
+    </footer>
+
+</body>
+</html>
+```
