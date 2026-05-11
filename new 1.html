@@ -1,0 +1,545 @@
+```html id="6tkqwe"
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projekt Informatike - Kompjuteri</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#eef3f8;
+    color:#222;
+    line-height:1.7;
+}
+
+header{
+    background:linear-gradient(to right,#141e30,#243b55);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:60px;
+}
+
+header p{
+    font-size:22px;
+    margin-top:10px;
+}
+
+nav{
+    background:#111;
+    padding:18px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:18px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00bfff;
+}
+
+section{
+    padding:60px 20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+h2{
+    color:#1b4965;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    margin-top:25px;
+    border-radius:20px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.images{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:25px;
+    justify-content:center;
+}
+
+.images img{
+    width:320px;
+    border-radius:15px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.2);
+}
+
+ul{
+    margin-left:25px;
+    margin-top:15px;
+}
+
+button{
+    padding:14px 25px;
+    border:none;
+    border-radius:12px;
+    background:#1b4965;
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    margin:10px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#102f44;
+    transform:scale(1.05);
+}
+
+#rezultati{
+    margin-top:25px;
+    background:#111;
+    color:#00ff88;
+    padding:25px;
+    border-radius:15px;
+    min-height:180px;
+    font-size:18px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#1b4965;
+    color:white;
+    padding:15px;
+}
+
+table td{
+    border:1px solid #ccc;
+    padding:15px;
+    background:white;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>PROJEKT INFORMATIKE</h1>
+
+<p>Tema: Kompjuteri dhe Teknologjia Moderne</p>
+
+</header>
+
+<nav>
+
+<a href="#historiku">Historiku</a>
+
+<a href="#pjeset">Pjesët</a>
+
+<a href="#llojet">Llojet</a>
+
+<a href="#perdorimet">Përdorimet</a>
+
+<a href="#interaktiv">Program Interaktiv</a>
+
+</nav>
+
+<section id="historiku">
+
+<div class="container">
+
+<h2>Historiku i Kompjuterit</h2>
+
+<div class="card">
+
+<p>
+
+Kompjuteri është një nga shpikjet më të rëndësishme të njerëzimit.
+Ai ka kaluar një zhvillim të madh gjatë historisë.
+Në fillim u krijuan makina të thjeshta llogaritëse,
+ndërsa sot ekzistojnë superkompjuterë shumë të fuqishëm
+që përdoren në shkencë, mjekësi dhe teknologji.
+
+</p>
+
+<br>
+
+<p>
+
+Charles Babbage konsiderohet babai i kompjuterit modern,
+sepse ai krijoi idenë e “Analytical Engine”.
+Më vonë Alan Turing zhvilloi bazat e inteligjencës artificiale,
+ndërsa John von Neumann krijoi arkitekturën moderne të kompjuterëve.
+
+</p>
+
+<div class="images">
+
+<img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000">
+
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000">
+
+<img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1000">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="pjeset">
+
+<div class="container">
+
+<h2>Pjesët e Kompjuterit</h2>
+
+<div class="card">
+
+<p>
+
+Kompjuteri përbëhet nga disa pjesë kryesore që punojnë së bashku
+për të përpunuar dhe ruajtur informacionin.
+
+</p>
+
+<ul>
+
+<li><b>CPU</b> – Procesori ose “truri” i kompjuterit.</li>
+
+<li><b>RAM</b> – Memoria e përkohshme gjatë përdorimit.</li>
+
+<li><b>SSD / Hard Disk</b> – Ruajtja e dokumenteve dhe programeve.</li>
+
+<li><b>Monitori</b> – Shfaq informacionin në ekran.</li>
+
+<li><b>Tastiera</b> – Përdoret për të shkruar.</li>
+
+<li><b>Mausi</b> – Kontrollon kursorin në ekran.</li>
+
+</ul>
+
+<div class="images">
+
+<img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1000">
+
+<img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?q=80&w=1000">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="llojet">
+
+<div class="container">
+
+<h2>Llojet e Kompjuterëve</h2>
+
+<div class="card">
+
+<table>
+
+<tr>
+
+<th>Lloji</th>
+
+<th>Përdorimi</th>
+
+</tr>
+
+<tr>
+
+<td>Desktop</td>
+
+<td>Përdoret në shtëpi dhe zyra.</td>
+
+</tr>
+
+<tr>
+
+<td>Laptop</td>
+
+<td>Kompjuter portativ për shkollë dhe punë.</td>
+
+</tr>
+
+<tr>
+
+<td>Server</td>
+
+<td>Ruajtja dhe shpërndarja e të dhënave.</td>
+
+</tr>
+
+<tr>
+
+<td>Tablet</td>
+
+<td>Përdoret për internet dhe argëtim.</td>
+
+</tr>
+
+<tr>
+
+<td>Superkompjuter</td>
+
+<td>Kërkime shkencore dhe analiza të mëdha.</td>
+
+</tr>
+
+</table>
+
+<div class="images">
+
+<img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1000">
+
+<img src="https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1000">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="perdorimet">
+
+<div class="container">
+
+<h2>Përdorimet e Kompjuterit</h2>
+
+<div class="card">
+
+<p>
+
+Kompjuteri përdoret pothuajse në çdo fushë të jetës.
+Ai ndihmon në komunikim, punë, edukim dhe argëtim.
+
+</p>
+
+<ul>
+
+<li>Në shkolla për mësim dhe projekte.</li>
+
+<li>Në spitale për ruajtjen e të dhënave të pacientëve.</li>
+
+<li>Në banka dhe biznese për menaxhimin e financave.</li>
+
+<li>Në kërkime shkencore dhe teknologji moderne.</li>
+
+<li>Për lojëra, filma dhe rrjete sociale.</li>
+
+</ul>
+
+<div class="images">
+
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000">
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="interaktiv">
+
+<div class="container">
+
+<h2>Program Interaktiv si C++</h2>
+
+<div class="card">
+
+<p>
+
+Ky seksion funksionon si një program C++ interaktiv.
+Kliko butonat për të parë informacione të ndryshme.
+
+</p>
+
+<button onclick="historiku()">
+
+Historiku
+
+</button>
+
+<button onclick="pjeset()">
+
+Pjesët
+
+</button>
+
+<button onclick="llojet()">
+
+Llojet
+
+</button>
+
+<button onclick="siguria()">
+
+Siguria
+
+</button>
+
+<button onclick="fshij()">
+
+Pastro
+
+</button>
+
+<div id="rezultati">
+
+Zgjidh një opsion për të parë informacionin.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+Projekt Informatike © 2026 | Tema: Kompjuteri
+
+</p>
+
+</footer>
+
+<script>
+
+function historiku(){
+
+document.getElementById("rezultati").innerHTML =
+
+"📚 <b>Historiku i Kompjuterit</b><br><br>" +
+
+"Kompjuteri modern filloi me Charles Babbage.<br>" +
+
+"Alan Turing krijoi bazat e inteligjencës artificiale.<br>" +
+
+"Në vitet 1970 filluan kompjuterët personalë.";
+
+}
+
+function pjeset(){
+
+document.getElementById("rezultati").innerHTML =
+
+"🖥️ <b>Pjesët e Kompjuterit</b><br><br>" +
+
+"CPU – Përpunon informacionin.<br>" +
+
+"RAM – Memorie e përkohshme.<br>" +
+
+"SSD – Ruajtja e të dhënave.<br>" +
+
+"Monitori dhe tastiera përdoren për komunikim me përdoruesin.";
+
+}
+
+function llojet(){
+
+document.getElementById("rezultati").innerHTML =
+
+"💻 <b>Llojet e Kompjuterëve</b><br><br>" +
+
+"Desktop<br>" +
+
+"Laptop<br>" +
+
+"Server<br>" +
+
+"Tablet<br>" +
+
+"Superkompjuter";
+
+}
+
+function siguria(){
+
+document.getElementById("rezultati").innerHTML =
+
+"🔒 <b>Siguria në Kompjuter</b><br><br>" +
+
+"Përdor antivirus.<br>" +
+
+"Krijo fjalëkalime të forta.<br>" +
+
+"Mos hap file të panjohura.<br>" +
+
+"Bëj backup të të dhënave.";
+
+}
+
+function fshij(){
+
+document.getElementById("rezultati").innerHTML =
+
+"Zgjidh një opsion për të parë informacionin.";
+
+}
+
+</script>
+
+</body>
+
+</html>
+```
